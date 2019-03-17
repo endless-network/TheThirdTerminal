@@ -108,19 +108,23 @@ body{
   margin: 0 auto;
 }
 
+.cta{
+  position:relative;
+  width:100%;
+}
 .sign-up{
   display:block;
-  position: absolute;
+  position:absolute;
   left: 50%;
-  margin-left: -90px;
   width: 180px;
-  bottom: 120px;
+  margin-left: -90px;
   color: #ccc;
   font-size: 1.1em;
   cursor: pointer;
   border: 1px solid #aaa;
   padding: 8px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 .sign-up:hover{
   background-color: rgba(255,255,255,.04);
@@ -226,14 +230,14 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
-.glitch .glitch__title {
+.glitch__title {
   font-size: 2em;
   font-weight: 400;
-  color: #ffffff;
+  color: #aaa;
   position: relative;
   text-transform: uppercase;
 }
-.glitch .glitch__title:before, .glitch .glitch__title:after {
+.glitch__title:before, .glitch .glitch__title:after {
   content: 'Coming Soon';
   position: absolute;
   left: 0;
@@ -242,13 +246,13 @@ body {
   height: 100%;
   overflow: hidden;
 }
-.glitch .glitch__title:before {
+.glitch__title:before {
   left: 2px;
   text-shadow: -1px 0 #00ffea;
   clip: rect(24px, 550px, 90px, 0);
   animation: glitch-anim 2s linear infinite alternate-reverse;
 }
-.glitch .glitch__title:after {
+.glitch__title:after {
   left: -2px;
   text-shadow: -1px 0 #fe3a7f;
   clip: rect(85px, 550px, 140px, 0);
