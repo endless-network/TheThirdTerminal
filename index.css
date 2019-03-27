@@ -137,6 +137,11 @@ body{
   content:"MS-575-94105";
 }
 
+.tos{
+  margin: 20px;
+  color:#fff;
+}
+
 /*glitch*/
 
 :root {
