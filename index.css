@@ -139,7 +139,8 @@ body{
 
 .tos{
   margin: 20px;
-  color:#fff;
+  padding: 40px;
+  background-color: #fff;
 }
 
 /*glitch*/
