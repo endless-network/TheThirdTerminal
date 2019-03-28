@@ -138,6 +138,8 @@ body{
 }
 
 .tos{
+  position: relative;
+  height: 100%;
   margin: 20px;
   padding: 40px;
   background-color: #fff;
